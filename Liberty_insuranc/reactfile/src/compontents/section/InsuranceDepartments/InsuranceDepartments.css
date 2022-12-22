@@ -1,0 +1,87 @@
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.container-card
+{
+    padding: 10%;
+    
+}
+.Card-ins{
+    
+    border-radius: 10px;
+    width: 100%;
+    min-width: 100px;
+ background-color: #fff;
+   padding: 20px;
+   margin-left: 10px;
+   margin-top: 20px;
+   box-shadow: 4px 2px 30px var(--seccolor),1px 3px 5px black ;
+   min-height: 94%;
+   border:transparent;
+   border-style: solid;
+}
+.log
+{
+    display: flex;
+}
+.pr{
+    color:rgb(0, 0, 0);
+    
+    font-size:25px;
+}
+.h2{
+    color:rgb(0, 0, 0);
+    padding-top:15px;
+    padding-right: 30px;;
+    
+}
+
+
+
+.link
+{
+    text-decoration: none;
+   
+}
+
+.Mcard img {
+    width: 30%;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    
+
+}
+@media screen and (max-width:796px) {
+    .Card-ins{
+        min-height: 45vh;
+    }
+    .Mcard img{
+        width: 63%;
+    }
+}
+@media screen and (max-width:1375px) {
+    .Card-ins{
+        min-height: 93%;
+    }
+    .Mcard img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px) {
+    .Card-ins{
+        max-width: 80%  ;
+    }
+    .Mcard img{
+        width: 30%;
+    }
+}
+.Card-ins:hover{
+    margin: 5px 4px ;
+   
+}
+.cardsTextHomePage{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
