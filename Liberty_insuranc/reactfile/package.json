@@ -1,4 +1,6 @@
 {
+  "proxy": "https://webpro.pages.dev",
+  "homepage": ".",
   "name": "reactfile",
   "version": "0.1.0",
   "private": true,
