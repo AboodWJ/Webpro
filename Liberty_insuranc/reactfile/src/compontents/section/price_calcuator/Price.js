@@ -1,9 +1,8 @@
-import { getByTitle } from '@testing-library/react'
-import { type } from '@testing-library/user-event/dist/type'
+
 import React, { useState } from 'react'
 import './Price.css'
 function Price() {
-  const [Show, setShow] = useState(true)
+  const [Show, setShow] = useState(false)
   const addclass = () => {
     let Type = document.querySelectorAll("select");
     let Form = document.querySelectorAll("form");
